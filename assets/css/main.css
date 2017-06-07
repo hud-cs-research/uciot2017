@@ -143,7 +143,6 @@ ul li {
   color: #313131;
   letter-spacing: 1px;
   margin: 0 0 20px;
-  text-transform: uppercase;
   text-align: center;
 }
 
@@ -246,7 +245,6 @@ ul li {
     color: #313131;
     letter-spacing: 1px;
     margin: 0 0 60px;
-    text-transform: uppercase;
     text-align: left;
   }
 }
@@ -307,7 +305,6 @@ ul li {
   font-weight: 700;
   margin-right: 5px;
   letter-spacing: 3px;
-  text-transform: uppercase;
 }
 .site-branding .logo:focus, .site-branding .logo:hover {
   text-decoration: none;
@@ -404,7 +401,6 @@ ul li {
 .speaker {
   text-align: center;
   color: #313131;
-  text-transform: uppercase;
   margin: 25px 0;
 }
 .speaker h4 {
@@ -449,6 +445,18 @@ ul li {
   left: 5px;
   border: 1px solid #fff;
 }
+
+/***
+*
+*
+* Important Dates
+*
+***/
+
+.sidebar-dates-table 
+.date {	text-align: right;	font-weight: bold;	font-style: italic;	color: maroon;}
+.sidebar-dates-table 
+.date-description {	font-weight: bold;}
 
 /* 
  * 6.7 Section: Schedule
